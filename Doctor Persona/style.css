@@ -1,0 +1,98 @@
+html,body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+
+}
+*{ 
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+.container { 
+    display: flex;
+
+}
+
+.child {
+    padding: 20px;
+}
+#header-name { 
+
+    background-color: rgba(202, 145, 233, 0.8);
+    color : white;
+    padding: 10px;
+    margin: 0px;
+
+}
+
+.objective{
+
+    width: 240px;
+    background-color:  rgba(202, 145, 233, 0.8);
+    padding: 5px;
+}
+
+th { 
+    text-align: right;
+    color: rgba(200, 146, 229, 0.998);
+    font-size: 12px;
+
+}
+td {
+    padding-left: 15px;
+
+}
+h4 {
+    margin: 0px;
+    color: rgba(203, 138, 237, 0.952);
+}
+
+#second-part p {
+    background-color: rgba(202, 145, 233, 0.8);
+    color: white; 
+    padding: 2px 0px 2px 10px;
+}
+ul{
+    list-style-type: none;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 100px;
+}
+
+.small-flex {
+
+    display: flex;
+    width: 100px;
+
+
+}
+
+.small-child{
+    width: 30px;
+    height: 30px
+}
+
+#child {
+
+    background-color: rgb(222, 227,228);
+}
+
+#child2 {
+
+    background-color: rgba(202, 145, 233, 0.8);
+}
+
+#child3{
+
+    background-color: rgb(222,227,228);
+    flex-grow: 1; 
+}
+
+.bio{
+
+    width: 100%;
+    background-color:  rgb(216, 216, 216);
+    padding: 5px;
+}
